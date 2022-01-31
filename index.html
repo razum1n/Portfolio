@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3bd2646129.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Lauri Rantala Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/new_logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">My Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item"><a href="#work" class="nav-link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="intro" id="home">
+      <h1 class="section-title-intro">
+        Hi, I am <strong>Lauri Rantala</strong>
+      </h1>
+      <p class="section-subtitle-intro">Game developer</p>
+      <img src="img/headshot.jpg" alt="Picture of Lauri" class="intro-img" />
+    </section>
+    <section class="my-services" id="services">
+      <h2 class="section-title-services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Programming</h3>
+          <p>
+            Worked as a programmer on many game projects. Programmed apps with python. <br>
+             Experienced in: <ul><li>C#</li>
+            <li>Python</li></ul>
+          </p>
+          <p>
+            Know the basics of:
+            <ul><li>C++/C</li>
+            <li>JavaScript</li>
+            <li>SQL</li></ul>
+          </p>
+        </div>
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            Done design work in game projects. <br> Worked on a team to design digital services for a healthcare provider. <br> Done work on a few websites.
+          </p>
+        </div>
+        <!-- <div class="service">
+          <h3>Web</h3>
+          <p>
+          </p>
+        </div> -->
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <section class="about-me" id="about">
+      <h2 class="section-title-about">Who I am</h2>
+      <p class="section-subtitle-about">Game developer</p>
+
+      <div class="about-me-body">
+        <p>
+          Currently a student studing at Tampere University of Applied Sciences. Working on my thesis at Games Academy. 
+        </p>
+        <p>
+          Interested in programming and have been a programmer on numerous projects.
+          Always interested to learn more and have studied many programming languages on my own including c++ and python.
+          Mostly worked with Unity when it comes to game projects but have begun learning Unreal as well.
+        </p>
+      </div>
+      <img
+        src="img/ProfilePic2.png"
+        alt="Another picture of Lauri"
+        class="about-me-img"
+      />
+    </section>
+
+    <section class="my-work" id="work">
+      <h2 class="section-title-work">My Work</h2>
+      <p class="section-subtitle-work">Unity Projects</p>
+
+      <div class="portfolio" id="unity">
+        <a href="portfolio-item-1.html" class="portfolio-item">
+          <img src="img/portfolio-01-01.png" alt="" class="portfolio-img" />
+        </a>
+        <a href="portfolio-item-2.html" class="portfolio-item">
+          <img src="img/portfolio-02.png" alt="" class="portfolio-img" />
+        </a>
+        <a href="portfolio-item-3.html" class="portfolio-item">
+          <img src="img/portfolio-03.png" alt="" class="portfolio-img" />
+        </a>
+        <a href="portfolio-item-4.html" class="portfolio-item">
+          <img src="img/portfolio-04.png" alt="" class="portfolio-img" />
+        </a>
+      </div>
+      <p class="section-subtitle-work">Other projects</p>
+      <div class="portfolio">
+        <a href="portfolio-item-5.html" class="portfolio-item">
+          <img src="img/portfolio-05.png" alt="" class="portfolio-img" />
+        </a>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="mailto:laurirantala@hotmail.com" class="footer-link"
+        >laurirantala@hotmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a href="https://razum1n.itch.io/"
+            ><i class="fab fa-itch-io fa-lg"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a href="https://www.linkedin.com/in/lauri-rantala-43ab25163/">
+            <i class="fab fa-linkedin fa-lg"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a href="https://github.com/razum1n"
+            ><i class="fab fa-github fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
